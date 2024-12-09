@@ -1,2 +1,3 @@
 **/*.DS_STORE
 .raylib
+.raylib_odin_game
