@@ -24,3 +24,5 @@ This requires llvm and raylib to be build locally, for this older laptop it took
 - https://zylinski.se/posts/gamedev-for-beginners-using-odin-and-raylib-2/
 - https://zylinski.se/posts/gamedev-for-beginners-using-odin-and-raylib-3/
 - https://github.com/kevinw/raylib-odin/
+- https://kenney.nl/assets/category:Audio
+- https://brackeysgames.itch.io/brackeys-platformer-bundle
