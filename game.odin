@@ -241,6 +241,7 @@ main :: proc() {
 			{
 				rl.DrawText("LOGO PLACEHOLDER", 20, 20, 40, rl.LIGHTGRAY)
 				rl.DrawText("Wait for 5 seconds...", 290, 220, 20, rl.GRAY)
+				rl.DrawTexture(title_tex, i32(f32(screenWidth) * 0.5), i32(f32(screenHeight) * 0.5), rl.WHITE)
 			}
 		case .TITLE:
 			{
@@ -452,6 +453,9 @@ main :: proc() {
 	rl.UnloadMusicStream(music)
 	rl.UnloadMusicStream(game_over_music)
 	rl.CloseAudioDevice()
+
+	rl.UnloadTexture(player_run_texture)
+	rl.UnloadTexture(title_tex)
 
 	rl.CloseWindow()
 }
